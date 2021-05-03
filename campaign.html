@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devicewidth, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+    <title>BTS Fan Page - Love Myyself Campaign</title>
+</head>
+
+<body>
+
+    <header>
+
+        <img src="BTSXARMY.png" alt="BTS x ARMY" class="headerlogo">
+        <img src="menu.png" alt="menu" class="menu-icon" onclick="openmenu()" style="float: right;">
+    </header>
+    <div class="menu-navbar">
+        <nav id="menu" class="menu">
+            <ul>
+                <li><a href="index.html"> HOME </a></li>
+                <li><a href="about.html"> ABOUT BTS </a></li>
+                <li><a href="discography.html"> DISCOGRAPHY </a></li>
+                <li><a href="campaign.html"> LOVE MYSELF CAMPAIGN</a></li>
+            </ul>
+            <p class="lite-text">MENU</p>
+            <img src="close.png" alt="close" class="close-icon" onclick="closemenu()">
+        </nav>
+
+    </div>
+
+    <div class="container">
+        <img src="group.jpg" alt="BTS" style="width:100%;" class="background">
+        <div class="centered">
+            <h1 class="current">Love Myself Campaign</h1>
+        </div>
+    </div>
+    <h2><b>BTS supports #ENDViolence</b></h2>
+    <div class="endviolence">
+        <p>In November 2017, UNICEF Korea, South Korean boy band BTS and South Korean entertainment company Big Hit
+            Entertainment (BHE) joined forces in the #LoveMyself campaign, an effort to raise awareness about violence
+            towards children and young people around the world.
+            The #LoveMyself campaign supports the pre-existing UNICEF’s #ENDViolence campaign launched in 2013 to make
+            the world a safer place for the young generation.
+            Funds raised through #LoveMyself are being used to protect and support children and teens affected by
+            domestic, school and sexual violence, as well as to empower local communities to help prevent violence.
+            In April 2018, BTS embarked on a world tour that will take them to US, Canada, the UK, France, the
+            Netherlands, Germany and Japan. This tour represents a great opportunity for National Committees to promote
+            the #ENDViolence campaign in support of their advocacy, fundraising and brand building efforts.<br>
+    </div>
+    <p class="at">&#169;THE KOREAN COMMITTEE FOR UNICEF</p>
+    <p><cite>We have learned to love ourselves, so now I urge you to 'speak yourself.'</cite> - Kim Namjoon</p>
+    <p class="line"></p>
+    <figure>
+
+        <video poster="unicefspeech.jpg" width="1000" height="auto" controls class="unicef">
+            <source src="endviolencespeech.mp4" type="video/mp4">
+        </video>
+        <figcaption>RM, leader of BTS giving a speech at the United Nations</figcaption>
+    </figure>
+
+    <p class="line"></p>
+    <form>
+        <h3>Interested in the campaign?</h3>
+        <h4>Contact us for more information</h4>
+
+        <input type="text" class="name" name="name" placeholder="Name">
+
+        <input type="text" class="email" name="email" placeholder="E-Mail">
+
+        <br><textarea name="message" class="message" placeholder="Write us a message..."></textarea><br>
+
+        <input type="checkbox" value="subscribe">
+        <label for="subscribe">Subscribe for news about BTS</label><br>
+
+        <input type="radio" class="army" name="fan" value="army">
+        <label for="army">ARMY</label>
+        <input type="radio" class="newfan" name="fan" value="newfan">
+        <label for="newfan">new fan</label><br><br>
+
+        <img src="email.png" alt="email" class="contact-icon">
+        <p class="contact-info">mat.szonja@gmail.com</p>
+        <img src="phone.png" alt="phone" class="contact-icon">
+        <p class="contact-info">+36203464101</p>
+        <br><input type="image" src="submit.png" alt="Submit" width="50" height="auto">
+        <button type="reset">
+            <img src="reset.png" alt="Reset" width="50" height="auto">
+        </button>
+
+    </form><br>
+
+    <footer>
+
+
+        <a href="https://twitter.com/bts_twt" target="_blank">
+            <img src="twitter1.png" alt="BTS twitter" class="logo">
+        </a>
+
+        <a href="http://instagram.com/bts.bighitofficial" target="_blank">
+            <img src="instagram.png" alt="BTS instagram" class="logo">
+        </a>
+
+        <a href="https://www.facebook.com/bangtan.official/" target="_blank">
+            <img src="facebook.png" alt="BTS facebook" class="logo">
+        </a>
+
+
+        <a href="https://www.youtube.com/user/BANGTANTV" target="_blank">
+            <img src="youtubelogo.png" alt="Bangtan TV" class="logo">
+        </a>
+
+        <a href="https://www.weverse.io/bts/artist" target="_blank">
+            <img src="Weverse_(app)_logo.png" alt="BTS weverse" class="logo">
+        </a>
+
+
+    </footer>
+
+    <script>
+
+        var menu = document.getElementById("menu");
+
+        function closemenu() {
+            menu.style.top = "-100vh";
+        }
+        function openmenu() {
+            menu.style.top = "0";
+        }
+
+    </script>
+
+</body>
+
+
+</html>
