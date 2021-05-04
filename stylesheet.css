@@ -5,7 +5,7 @@ body
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 2%;
-    font-size: 20px;
+    font-size: 1.2em;
 }
 
 
@@ -19,7 +19,7 @@ p.MV
     padding-top: 0.2%;
     padding-bottom: 0.2%;
     display: inline-block;
-    border-width: 1px;
+    border-width: 0.01em;
     margin-left: 11%;
     margin-right: 9%;
     margin-bottom: 0%;
@@ -71,7 +71,7 @@ img.banner
 .current
 {
     border-style: solid;
-    border-width: 1px;
+    border-width: 0.01em;
     padding-bottom: 10%;
     padding-top: 10%;
     color: #2f0f2f;
@@ -97,7 +97,7 @@ img.banner
 
 img.background
 {
-    padding-bottom: 6px;
+    padding-bottom: 1em;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -111,7 +111,7 @@ h1
 
 .logo
 {
-    height: 35px;
+    height: 1.8em;
     width: auto;
     opacity: 0.8;
     float: left;
@@ -127,7 +127,7 @@ header
 }
 .headerlogo
 {
-    height: 50px;
+    height: 2.8em;
     width: auto;
     opacity: 0.8;
 }
@@ -166,7 +166,7 @@ textarea
     margin-top: 1%;
     margin-bottom: 1%;
     width:100%;
-    height: 250px;
+    height: 12em;
     font-size: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -209,7 +209,7 @@ footer
 {
     background-color: #2f0f2f;
     margin-top: 0.5%;
-    height: 35px;
+    height: 2em;
     padding: 1%;
 }
 
@@ -240,7 +240,7 @@ button, input[type="reset"]
 h3
 {
     font-size: 150%;
-    padding-top:12px;
+    padding-top:1%;
     text-align: center;
     margin-bottom:0;
 }
@@ -251,7 +251,7 @@ h4
     text-align: center;
     font-style: italic;
     font-weight: normal;
-    margin-top:6px;
+    margin-top:1%;
     
 }
 
@@ -273,7 +273,7 @@ form
 
 .contact-icon
 {
-    height: 25px;
+    height: 1.5em;
     width: auto;
 
 }
@@ -293,7 +293,7 @@ form
 
 p.at
 {
-    padding-top: 24px;
+    padding-top: 1%;
     font-weight:500;
 }
 
@@ -301,7 +301,7 @@ p.at
 
 .profile
 {
-    width: 200px;
+    width: 11em;
     height: auto;
     border-radius: 50%;
  
@@ -465,16 +465,16 @@ article
 nav.menu ul li
 {
     list-style: none;
-    MARGIN: 35px 0;
+    margin: 2em 0;
 }
 
 nav.menu ul li a
 {
     text-decoration: none;
-    font-size: 40px;
+    font-size: 2em;
     color:#fff;
-    padding: 10px;
-    letter-spacing:  5px;
+    padding: 0.01em;
+    letter-spacing:  0.2em;
     position: relative;
 }
 
@@ -529,18 +529,17 @@ nav.menu
 
 .close-icon
 {
-    width:25px;
+    width:1.5em;
     position: absolute;
-    right: 60px;
-    top:55px;
+    right: 3em;
+    top:3em;
     cursor: pointer;
 }
 
 .menu-icon
 {
-    right:70px;
-   
-    width: 30px;
+    right:3em;
+    width: 1.8em;
     cursor: pointer;
 }
 
