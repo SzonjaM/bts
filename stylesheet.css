@@ -350,7 +350,7 @@ p.at
    }
 }
 
-@media screen and (max-width: 500px)
+@media screen and (max-width: 600px)
 {
    .column4
    {
@@ -420,7 +420,7 @@ ol::after
     display: table;
 }
 
-ol.B
+ol.A
 {
    float: left;
    width: 33.33%;
@@ -428,6 +428,14 @@ ol.B
    margin-right: auto;
 }
 
+@media screen and (max-width: 1000px)
+{
+    ol.A
+    {
+        width: 100%;
+        text-align: left;
+    }
+}
 
 section.album p
 {
@@ -562,4 +570,12 @@ nav.menu
 {
     width: 60%;
     height: auto;
+}
+
+@media screen and (max-width: 1000px)
+{   
+    .sidebar
+    {
+        display: none;
+    }
 }
