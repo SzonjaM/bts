@@ -11,13 +11,13 @@ body
 
 p.MV
 {
-    font-size: 36px;
+    font-size: 2em;
     color: #2f0f2f;
     border-style: solid;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
     display: inline-block;
     border-width: 1px;
     margin-left: 11%;
