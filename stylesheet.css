@@ -144,7 +144,7 @@ h2
 
 input[type=text]
 {
-    width: 450px;
+    width: 48%;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     padding-left: 0.5%;  
@@ -153,11 +153,21 @@ input[type=text]
 }
 input[type=email]
 {
-    width: 450px;
+    width: 48%;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     padding-left: 0.5%;  
     font-size: 90%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+textarea
+{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width:100%;
+    height: 250px;
+    font-size: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -194,15 +204,7 @@ label[for="army"]
 }
 
 
-textarea
-{
-    margin-top: 1%;
-    margin-bottom: 1%;
-    width:925px;
-    height: 250px;
-    font-size: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 footer
 {
     background-color: #2f0f2f;
@@ -265,7 +267,7 @@ form
     margin-left: auto;
     margin-right: auto;
     width: 55%;
-    padding-bottom:12px;
+    padding-bottom:2em;
     
 }
 
