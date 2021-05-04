@@ -28,8 +28,9 @@ p.MV
 }
 video.MV
 {
-    width: 700px;
-    height: 500px;
+    margin-top:1em;
+    width: 40%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     padding-left: 1%;
@@ -142,6 +143,15 @@ h2
 }
 
 input[type=text]
+{
+    width: 450px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 0.5%;  
+    font-size: 90%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type=email]
 {
     width: 450px;
     padding-top: 0.5%;
