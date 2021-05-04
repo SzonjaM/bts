@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=devicewidth, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="print.css" media="screen"/>
     <title>BTS Fan Page - Love Myyself Campaign</title>
 </head>
 
@@ -53,24 +54,26 @@
     <p class="line"></p>
     <figure>
 
-        <video poster="unicefspeech.jpg" width="1000" height="auto" controls class="unicef">
+        <video class="speech" poster="unicefspeech.jpg" controls class="unicef">
             <source src="endviolencespeech.mp4" type="video/mp4">
         </video>
         <figcaption>RM, leader of BTS giving a speech at the United Nations</figcaption>
     </figure>
 
     <p class="line"></p>
-    <form>
+
+
+    <form action="mailto:mat.szonja@gmail.com" method="POST" enctype="text/plain">
         <h3>Interested in the campaign?</h3>
         <h4>Contact us for more information</h4>
 
-        <input type="text" class="name" name="name" placeholder="Name">
+        <input type="text" class="name" name="name" placeholder="Name" maxlength="40" required>
 
-        <input type="text" class="email" name="email" placeholder="E-Mail">
+        <input type="email" class="email" name="email" placeholder="E-Mail" maxlength="40" required>
 
-        <br><textarea name="message" class="message" placeholder="Write us a message..."></textarea><br>
+        <br><textarea name="message" class="message" placeholder="Write us a message..." maxlength="500"></textarea><br>
 
-        <input type="checkbox" value="subscribe">
+        <input type="checkbox" name="news" id="subscribe" value="yes">
         <label for="subscribe">Subscribe for news about BTS</label><br>
 
         <input type="radio" class="army" name="fan" value="army">

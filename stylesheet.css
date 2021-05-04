@@ -264,7 +264,7 @@ form
     padding-right: 2%;
     margin-left: auto;
     margin-right: auto;
-    width: 930px;
+    width: 55%;
     padding-bottom:12px;
     
 }
@@ -542,3 +542,8 @@ nav.menu
     cursor: pointer;
 }
 
+.speech
+{
+    width: 60%;
+    height: auto;
+}
