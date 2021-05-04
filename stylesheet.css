@@ -327,26 +327,41 @@ p.at
     
 }
 
+
+
 .row:after
 {
     content: "";
     display: table;
     clear: both;
     
-    
-}
+}  
+
   
+@media screen and (max-width: 1000px)
+{
+   .column4
+   {
+        width: 50%;
+   }
+   .column3
+   {
+        width: 50%;
+   }
+}
+
 @media screen and (max-width: 800px)
 {
    .column4
    {
-        width: 100%;
+        width:100%;
    }
    .column3
    {
         width: 100%;
    }
 }
+
 
 .release
 {
