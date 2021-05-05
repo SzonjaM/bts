@@ -448,12 +448,16 @@ ol.A
 ol li.A
 {
     list-style-type: none;
- 
+    font-weight: 800;
+    padding-bottom: 1em;
 }
 
 ol li.B
 {
     list-style-type: none;
+    font-weight: 800;
+    padding-bottom: 1em;
+
 }
 
 @media screen and (max-width: 1000px)
