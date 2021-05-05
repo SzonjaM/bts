@@ -603,7 +603,7 @@ nav.menu
     cursor: pointer;
 }
 
-.speech
+video.speech
 {
     width: 60%;
     height: auto;
@@ -615,4 +615,36 @@ nav.menu
     {
         display: none;
     }
+}
+
+.read
+{
+    position: absolute;
+    z-index: -10000;
+    
+}
+
+a.speech
+{
+    color: #2f0f2f;
+
+}
+a.speech:hover
+{
+    color: #d2b4d6;
+
+}
+
+a.speech:active
+{
+    color: #d2b4d6;
+}
+a.speech:visited
+{
+    color: #79597a;
+}
+
+p.speech
+{
+    text-align: justify;
 }
